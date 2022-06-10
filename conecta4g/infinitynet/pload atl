@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.4",
-  "ReleaseNotes": "4 operadoras top🇻🇪🤝🇧🇷",
+  "Version": "1.0.5",
+  "ReleaseNotes": "TIM 3 ⚡",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/pload%20atl",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
   "EmailFeedback": "",
@@ -72,6 +72,16 @@
       "Name": "TIM 2🔵",
       "FLAG": "tim",
       "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+ {
+    "Name": "TIM 3 🔵⚡",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "static.r4you.co",
       "TlsIP": "104.26.5.175",
       "ProxyIP": "",
