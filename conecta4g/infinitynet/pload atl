@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.5",
-  "ReleaseNotes": "TIM 3 ⚡",
+  "Version": "1.0.6",
+  "ReleaseNotes": "atualização celular velhos",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/pload%20atl",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
   "EmailFeedback": "",
@@ -39,7 +39,7 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO 1🟣",
+      "Name": "VIVO 1🟣🔰",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
@@ -49,7 +49,7 @@
      "Info": "Tlsws"
     },
     {
-      "Name": "VIVO 2🟣",
+      "Name": "VIVO 2🟣🔰",
       "FLAG": "vivo",
       "Payload": "GET ssl://gedoc.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
@@ -59,7 +59,7 @@
       "Info": "Tlsws"
     },
      {
-    "Name": "TIM 1🔵 ",
+    "Name": "TIM 1🔵 🔰",
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "static.r4you.co",
@@ -69,7 +69,7 @@
       "Info": "Tlsws"
     },
   {
-      "Name": "TIM 2🔵",
+      "Name": "TIM 2🔵🔰",
       "FLAG": "tim",
       "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "static.r4you.co",
@@ -79,7 +79,7 @@
       "Info": "Tlsws"
     },
  {
-    "Name": "TIM 3 🔵⚡",
+    "Name": "TIM 3 🔵🔰",
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "static.r4you.co",
@@ -89,7 +89,7 @@
       "Info": "Tlsws"
     },
   {
-     "Name": "CLARO 1🔴",
+     "Name": "CLARO 1🔴🔰",
       "FLAG": "Claro",
       "Payload": "GET ws://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "content.akross.com.br",
@@ -99,7 +99,7 @@
       "Info": "Tlsws"
        },
     {
-      "Name": "CLARO 2🔴",
+      "Name": "CLARO 2🔴🔰",
       "FLAG": "claro",
       "Payload": "GET wss://api.new.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "api.new.livestream.com",
@@ -109,7 +109,7 @@
       "Info": "Tlsws"
        },
     {
-      "Name": "CLARO 3🔴",
+      "Name": "CLARO 3🔴🔰",
       "FLAG": "claro",
       "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "icanhazip.com",
@@ -119,7 +119,7 @@
       "Info": "Tlsws"
    },
   {
-      "Name": " OI 1🟡",
+      "Name": " OI 1🟡🔰",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
