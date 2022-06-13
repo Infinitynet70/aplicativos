@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.9",
   "ReleaseNotes": "promoçao 40 logins 60R$ clika na 🔰revenda/suporte🔰 ",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/pload%20atl",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
@@ -118,6 +118,36 @@
    "ProxyPort": "443",
    "Info": "Tlsws"
   },
+{
+ "Name": "🚀TIM NEW🚀",
+      "FLAG": "tim",
+      "Payload": "GET wss://bobcontents.bennuapp.com.br
+      "SNI": "bobcontents.bennuapp.com.br",
+      "TlsIP": "104.18.239.79",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+       {
+      "Name": "🚀TIM NOVO🚀",
+      "FLAG": "tim",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+{
+      "Name": "🚀CLARO NOVO🚀",
+      "FLAG": "claro",
+      "Payload": "GET wss://api.new.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "api.new.livestream.com
+      "TlsIP": "api.new.livestream.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+       },
  {
      "Name": "🔴CLARO 1",
       "FLAG": "Claro",
