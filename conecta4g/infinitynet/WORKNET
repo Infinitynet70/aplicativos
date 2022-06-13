@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.3",
-  "ReleaseNotes": "WORK_NET DE PARCERIA CON INFINITY_NET💎",
+  "Version": "1.0.4",
+  "ReleaseNotes": "vivo🚀",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/WORKNET",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
   "EmailFeedback": "",
@@ -38,28 +38,8 @@
     }
   ],
  "Networks": [
-{ 
-       "Name": "🟣VIVO 1", 
-       "FLAG": "vivo", 
-       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-       "SNI": "[app_host]", 
-       "TlsIP": "104.18.7.80", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-      "Info": "Tlsws" 
-     }, 
-     { 
-       "Name": "🟣VIVO 2", 
-       "FLAG": "vivo", 
-       "Payload": "GET ssl://gedoc.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-       "SNI": "gedoc.vivo.com.br", 
-       "TlsIP": "104.18.6.80", 
-       "ProxyIP": "", 
-       "ProxyPort": "443", 
-       "Info": "Tlsws" 
-     }, 
-     { 
-      "Name": "🟣VIVO 3 ", 
+ { 
+       "Name": "🟣VIVO 1  ", 
        "FLAG": "vivo", 
        "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
        "SNI": "", 
@@ -69,15 +49,127 @@
        "Info": "Proxy" 
      }, 
      { 
-     "Name": "🟣VIVO4", 
+       "Name": "🟣VIVO 2 ", 
        "FLAG": "vivo", 
-       "Payload": "GET sni://planos.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]", 
-       "SNI": "planos.vivo.com.br", 
+       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+       "SNI": "", 
+       "TlsIP": "", 
+       "ProxyIP": "vigia.vivo.com.br", 
+       "ProxyPort": "80", 
+       "Info": "Proxy" 
+     }, 
+     { 
+       "Name": "🟣VIVO 3🚀", 
+       "FLAG": "vivo", 
+       "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]", 
+       "SNI": "money-staging.infinitepay.io", 
        "TlsIP": "104.18.7.80", 
+       "ProxyIP": "", 
+       "ProxyPort": "443", 
+       "Info": "Tlsws" 
+     }, 
+     { 
+     "Name": "🔵TIM 1 ", 
+       "FLAG": "tim", 
+       "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+       "SNI": "static.r4you.co", 
+       "TlsIP": "104.26.5.175", 
        "ProxyIP": "", 
        "ProxyPort": "", 
        "Info": "Tlsws" 
      }, 
+         { 
+    "Name": "🔵TIM 2", 
+    "FLAG": "tim", 
+    "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+    "SNI": "static.r4you.co", 
+    "TlsIP": "104.26.5.175", 
+    "ProxyIP": "", 
+    "ProxyPort": "443", 
+    "Info": "Tlsws" 
+   }, 
+        { 
+       "Name": "🔵TIM 3🚀", 
+       "FLAG": "tim", 
+       "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+       "SNI": "static.r4you.co", 
+       "TlsIP": "104.26.5.175", 
+       "ProxyIP": "", 
+       "ProxyPort": "", 
+       "Info": "Tlsws" 
+ }, 
+ { 
+  "Name": "🔵TIM 4🚀", 
+       "FLAG": "tim", 
+       "Payload": "GET wss://bobcontents.bennuapp.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+       "SNI": "bobcontents.bennuapp.com.br", 
+       "TlsIP": "104.18.239.79", 
+       "ProxyIP": "", 
+       "ProxyPort": "443", 
+       "Info": "Tlsws" 
+     }, 
+  { 
+       "Name": "🔴CLARO 1🚀", 
+       "FLAG": "claro", 
+       "Payload": "GET wss://api.new.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+       "SNI": "api.new.livestream.com", 
+       "TlsIP": "api.new.livestream.com", 
+       "ProxyIP": "", 
+       "ProxyPort": "", 
+       "Info": "Tlsws" 
+        }, 
+     { 
+       "Name": "🔴CLARO 2", 
+       "FLAG": "claro", 
+       "Payload": "GET wss://api.new.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+       "SNI": "api.new.livestream.com", 
+       "TlsIP": "api.new.livestream.com", 
+       "ProxyIP": "", 
+       "ProxyPort": "", 
+       "Info": "Tlsws" 
+        }, 
+     { 
+       "Name": "🔴CLARO 3", 
+       "FLAG": "claro", 
+       "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]", 
+       "SNI": "icanhazip.com", 
+       "TlsIP": "icanhazip.com", 
+       "ProxyIP": "", 
+       "ProxyPort": "", 
+       "Info": "Tlsws" 
+    }, 
+ { 
+       "Name": " 🟡OI 1", 
+       "FLAG": "oi", 
+       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+       "SNI": "www.hbogo.com.br", 
+       "TlsIP": "www.hbogo.com.br", 
+       "ProxyIP": "", 
+       "ProxyPort": "", 
+       "Info": "Tlsws" 
+     }, 
+     { 
+       "Name": "🟡OI 2 ", 
+       "FLAG": "oi", 
+       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+       "SNI": "www.hbogo.com.br", 
+       "TlsIP": "104.16.55.91", 
+       "ProxyIP": "", 
+       "ProxyPort": "", 
+       "Info": "Tlsws" 
+     }, 
+ { 
+       "Name": "🟡OI 3🚀", 
+       "FLAG": "oi", 
+       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+       "SNI": "www.hbogo.com.br", 
+       "TlsIP": "www.hbogo.com.br", 
+       "ProxyIP": "", 
+       "ProxyPort": "443", 
+       "Info": "Tlsws" 
+  } 
+   ] 
+ }
      { 
      "Name": "🔵TIM 1 ", 
        "FLAG": "tim", 
