@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "...",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/WORKNET",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
@@ -158,16 +158,6 @@
        "ProxyPort": "", 
        "Info": "Tlsws" 
     }, 
- { 
-       "Name": " 🟡OI 1", 
-       "FLAG": "oi", 
-       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "www.hbogo.com.br", 
-       "TlsIP": "www.hbogo.com.br", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-     }, 
      { 
        "Name": "🟡OI 2 ", 
        "FLAG": "oi", 
