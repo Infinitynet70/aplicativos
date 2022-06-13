@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.24",
+  "Version": "1.1.25",
   "ReleaseNotes": "optimizar todo🔰 claro esta en teste",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/pload%20atl",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
@@ -159,7 +159,7 @@
       "Info": "Tlsws"
     },
 {
-      "Name": "🟡OI 3🚀",
+      "Name": "🟡OI 3🚀🚀",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -168,5 +168,15 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
  }
+ { 
+       "Name": "🟡OI 4🚀", 
+       "FLAG": "oi", 
+       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+       "SNI": "www.hbogo.com.br", 
+       "TlsIP": "www.hbogo.com.br", 
+       "ProxyIP": "", 
+       "ProxyPort": "443", 
+       "Info": "Tlsws" 
+  } 
   ]
 }
