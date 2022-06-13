@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.11",
-  "ReleaseNotes": "tim claro novos  ",
+  "Version": "1.1.12",
+  "ReleaseNotes": "tim🔹claro novos  ",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/pload%20atl",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
   "EmailFeedback": "",
@@ -116,16 +116,6 @@
       "TlsIP": "104.18.239.79",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-       {
-      "Name": "🚀TIM NOVO🚀",
-      "FLAG": "tim",
-      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.5.175",
-      "ProxyIP": "",
-      "ProxyPort": "",
       "Info": "Tlsws"
     },
 {
