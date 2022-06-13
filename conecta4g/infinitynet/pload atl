@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.21",
+  "Version": "1.1.22",
   "ReleaseNotes": "optimizar todo🔰 claro esta en teste",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/pload%20atl",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
@@ -228,25 +228,5 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-    {
-      "Name": "❤️CLARO [SSL 6]",
-      "FLAG": "claro",
-      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: VEM_BRABO[crlf][crlf]",
-      "SNI": "api.new.livestream.com",
-      "TlsIP": "api.new.livestream.com",
-      "ProxyIP": "api.new.livestream.com",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-{
-      "Name": "🚀CLARO NOVO🚀",
-      "FLAG": "claro",
-      "Payload": "GET wss://api.new.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "api.new.livestream.com",
-      "TlsIP": "api.new.livestream.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-       },
   ]
 }
