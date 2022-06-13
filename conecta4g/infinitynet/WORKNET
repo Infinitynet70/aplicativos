@@ -119,16 +119,6 @@
        "Info": "Tlsws" 
         }, 
      { 
-       "Name": "🔴CLARO 2", 
-       "FLAG": "claro", 
-       "Payload": "GET wss://api.new.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "api.new.livestream.com", 
-       "TlsIP": "api.new.livestream.com", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-        }, 
-     { 
        "Name": "🔴CLARO 3", 
        "FLAG": "claro", 
        "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]", 
@@ -167,118 +157,6 @@
        "ProxyIP": "", 
        "ProxyPort": "443", 
        "Info": "Tlsws" 
-  } 
-   ] 
- }
-     { 
-     "Name": "🔵TIM 1 ", 
-       "FLAG": "tim", 
-       "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "static.r4you.co", 
-       "TlsIP": "104.26.5.175", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-     }, 
-      { 
-       "Name": "🔵TIM 3", 
-       "FLAG": "tim", 
-       "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "static.r4you.co", 
-       "TlsIP": "104.26.5.175", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-         }, 
-         { 
-    "Name": "🔵TIM 4", 
-    "FLAG": "tim", 
-    "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-    "SNI": "static.r4you.co", 
-    "TlsIP": "104.26.5.175", 
-    "ProxyIP": "", 
-    "ProxyPort": "443", 
-    "Info": "Tlsws" 
-   }, 
- { 
-  "Name": "🚀TIM NEW🚀", 
-       "FLAG": "tim", 
-       "Payload": "GET wss://bobcontents.bennuapp.com.br 
-       "SNI": "bobcontents.bennuapp.com.br", 
-       "TlsIP": "104.18.239.79", 
-       "ProxyIP": "", 
-       "ProxyPort": "443", 
-       "Info": "Tlsws" 
-     }, 
-        { 
-       "Name": "🚀TIM NOVO🚀", 
-       "FLAG": "tim", 
-       "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "static.r4you.co", 
-       "TlsIP": "104.26.5.175", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-     }, 
- { 
-       "Name": "🚀CLARO NOVO🚀", 
-       "FLAG": "claro", 
-       "Payload": "GET wss://api.new.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "api.new.livestream.com 
-       "TlsIP": "api.new.livestream.com", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-        }, 
-     { 
-      "Name": "🔴CLARO 1", 
-       "FLAG": "Claro", 
-       "Payload": "GET ws://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-       "SNI": "content.akross.com.br", 
-       "TlsIP": "content.akross.com.br", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-        }, 
-     { 
-       "Name": "🔴CLARO 2", 
-       "FLAG": "claro", 
-       "Payload": "GET wss://api.new.livestream.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "api.new.livestream.com", 
-       "TlsIP": "api.new.livestream.com", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-        }, 
-     { 
-       "Name": "🔴CLARO 3", 
-       "FLAG": "claro", 
-       "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]", 
-       "SNI": "icanhazip.com", 
-       "TlsIP": "icanhazip.com", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-    }, 
-   { 
-       "Name": " 🟡OI 1", 
-       "FLAG": "oi", 
-       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "www.hbogo.com.br", 
-       "TlsIP": "www.hbogo.com.br", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-     }, 
-     { 
-       "Name": "🟡OI 2 ", 
-       "FLAG": "oi", 
-       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
-       "SNI": "www.hbogo.com.br", 
-       "TlsIP": "104.16.55.91", 
-       "ProxyIP": "", 
-       "ProxyPort": "", 
-       "Info": "Tlsws" 
-     }, 
+  }  
    ] 
  }
