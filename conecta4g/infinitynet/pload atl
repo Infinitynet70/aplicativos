@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.13",
-  "ReleaseNotes": "tim🔹claro novos  ",
+  "Version": "1.1.14",
+  "ReleaseNotes": "tim🔹claro 🔰OI novos  ",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/pload%20atl",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
   "EmailFeedback": "",
@@ -67,16 +67,6 @@
       "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },
-    {
-    "Name": "🟣VIVO4",
-      "FLAG": "vivo",
-      "Payload": "GET sni://planos.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "planos.vivo.com.br",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
     },
     {
     "Name": "🔵TIM 1 ",
