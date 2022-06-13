@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.6",
-  "ReleaseNotes": "vivo🚀🚀🚀🚀",
+  "Version": "1.0.7",
+  "ReleaseNotes": "...",
   "UrlUpdate": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/WORKNET",
   "Sms": "https://raw.githubusercontent.com/Infinitynet70/aplicativos/main/conecta4g/infinitynet/mensagem%20sms",
   "EmailFeedback": "",
@@ -187,6 +187,6 @@
        "ProxyIP": "", 
        "ProxyPort": "443", 
        "Info": "Tlsws" 
-  }  
+  },
    ] 
  }
